@@ -305,7 +305,7 @@
           <div class="room-type">디럭스 킹 룸</div>
           <div class="amenities">어메니티: 무료 와이파이, 수영장, 스파, 피트니스 센터</div>
           <div style="display: flex; align-items: center; gap: 10px;">
-            <div class="scarcity rooms-left">남은 객실 수</div>
+            <div class="scarcity rooms-left">남은 객실 수: 4</div>
             <div class="booking-alert" style="display:none;">누군가 조금 전 예약했습니다!</div>
           </div>
           <div class="booked purchases"></div>
@@ -391,7 +391,7 @@
 
         if (roomsLeft !== oldCount) {
             // 텍스트 갱신
-            roomsLeftElem.textContent = 'Rooms Left: ' + roomsLeft;
+            roomsLeftElem.textContent = '남은 객실 수: ' + roomsLeft;
 
             // 메시지 표시
             alertElem.style.display = 'inline-block';
